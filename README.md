@@ -31,8 +31,8 @@
 
 ### 目录
 
-- [2180279: 程序设计](https://github.com/SJTU-CSE/awesome-cs#2180279)
-- [2400046: 数据结构](https://github.com/SJTU-CSE/awesome-cs#2400046)
+- [2180279: 程序设计](https://github.com/TJUCS/awesome-cs#2180279)
+- [2400046: 数据结构](https://github.com/TJUCS/awesome-cs#2400046)
 
 ### 2180279 程序设计原理
 
