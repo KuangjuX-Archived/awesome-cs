@@ -53,9 +53,9 @@ def parse_info(line):
 
 
 def parse_toc(line):
-    x = re.search(r"\[(.*?): (.*?)\]\(#(.*?)\)", line)
+    x = re.search(r"\[(.*?) (.*?)\]\(#(.*?)\)", line)
     if not x:
-        return False, f"failed to parse: no [ID, course name](#anchor) found"
+        return False, f"failed to parse: no [ID course name](#anchor) found"
     course_id, course_name, anchor = x.group(1), x.group(2), x.group(3)
     real_course_id = course_id.split(", ")[0]
     if real_course_id.lower() != anchor.lower():
